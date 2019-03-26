@@ -4,10 +4,12 @@
     float:left;
 }
 
+
 #gif-form {
-    margin: 120px;
+    margin: 20px;
     float: right;
 }
+
 
 .gif {
     margin: 5px;
@@ -17,4 +19,25 @@
     float:left;
     margin: 5px;
     padding: 5px;
+}
+
+@media screen and (max-width: 640px) {
+    .container {
+        width: 100%;
+        text-align:center;
+    }
+
+    .images {
+        float:left;
+        margin: 5px;
+        padding: 5px;
+        width: 25%;
+    }
+
+    #gif-form {
+        margin-top: 10% 0 0 0;
+        float: none;
+        text-align:center;
+    }
+
 }
