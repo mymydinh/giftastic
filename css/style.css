@@ -1,0 +1,22 @@
+.container {
+    width: 960px;
+    margin: 20px auto;
+    float:left;
+}
+
+
+#gif-form {
+    margin: 20px;
+    float: right;
+}
+
+
+.gif {
+    margin: 5px;
+}
+
+.images {
+    float:left;
+    margin: 5px;
+    padding: 5px;
+}
